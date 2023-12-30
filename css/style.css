@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: rgb(26,26,26);
+}
+.hero{
+    position: relative;
+    height: 100vh;
+    top: -81px;
+    left: 0;
+    width: 100%;
+    background-image: url('/images/buddha.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.hero div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero div p{
+    color: var(--white, #FFF);
+text-align: center;
+/* font-family: Quicksand; */
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+@media(max-width:1500px){
+    .hero{
+        height: 70vh;
+    }
+}
+@media(max-width:1200px){
+    .hero{
+        height: 54vh;
+    }
+    .hero div p{
+        font-size: 40px;
+    }
+}
+@media(max-width:1000px){
+    .hero{
+        height: 39vh;
+    }
+    .hero div p{
+        font-size: 30px;
+    }
+    .hero div{
+        top: 60%;
+    }
+}
+
+
+@media(max-width:838px){
+   
+    .hero div p{
+        font-size: 30px;
+    }
+}
+@media(max-width:720px){
+    .hero{
+        height: 70vh;
+    }
+    .hero div p{
+        font-size: 25px;
+    }
+}
+@media(max-width:720px){
+    .hero{
+        height: 24vh;
+    }
+    .hero div p{
+        font-size: 15px;
+    }
+    .hero div{
+        top: 70%;
+    }
+}
+@media(max-width:431px){
+    .hero{
+        height: 22vh;
+    }
+    .hero div p{
+        font-size: 12px;
+    }
+    .hero div{
+        top: 70%;
+    }
+}
+.bg-body-tertiary{
+    background-color: transparent !important;
+
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+
+.nav-link{
+    text-transform: uppercase;
+}
+.logo{
+    width: 160px;
+
+}
+.donate{
+    border-radius: 4px;
+color: black !important;
+text-transform: uppercase;
+font-weight: 500;
+}
+
+@media(min-width:768px){
+    .bg-body-tertiary{
+        background-color: transparent !important;
+    }
+   
+}
+@media(max-width:768px){
+    .navbar-nav{
+        background-color: black !important;
+        padding-bottom: 15px !important;
+        text-align: center !important;
+        transition:  all 0.5s !important;
+    }
+}
+
+.nav-link{
+    color: white !important;
+}
+.about-heading{
+    color: var(--white, #FFF);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.about-title{
+    color: #F0D200;
+text-transform: uppercase;
+
+text-shadow: 0px 4px 31px rgba(196, 172, 2, 0.55);
+
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.about-desc{
+    color: var(--white, #FFF);
+font-size: 16px;
+text-align: justify;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.about-btn{
+    border-radius: 4px;
+border: 1px solid #F0D200;
+
+/* glow */
+box-shadow: 0px 4px 31px 0px rgba(196, 172, 2, 0.55);
+color: #F0D200;
+/* font-family: Lato; */
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+padding: 12px 19px;
+}
+.about-img{
+    max-height: 535px;
+}
+.product-card{
+    box-shadow: 2px 1px 19px -6px rgba(84, 82, 82, 0.75);
+
+}
+.product-card img{
+    width: 100%;
+    height: 230px;
+}
+.product-details{
+    position: relative;
+}
+.product-details img{
+    position: absolute;
+    top: -72px;
+    left: -1px;
+    width: 100%;
+    z-index: 1;
+
+}
+@media(max-width:768px){
+    .product-details img{
+        left: -3px;
+    }
+}
+.product-info{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    top: -22px;
+}
+.product-heading{
+    color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+}
+.product-desc{
+    color: var(--text-dark, #3A3A3A);
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.product-btn{
+    border-radius: 4px;
+background: #000;
+padding: 9px 19px;
+box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+color:  #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.product-main-title{
+    color:  white;
+text-transform: uppercase;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.product-sub-title{
+    color: #F0D200;
+
+/* glow */
+text-shadow: 0px 4px 31px rgba(196, 172, 2, 0.55);
+
+/* title */
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.explore-all{
+    color:  #F0D200;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+}
+.yoga_img{
+    height: 80px;
+}
+.welcome-section{
+    position: relative;
+    top: 200px;
+}
+.yoga_title,.yoga_count,.yoga_value{
+    color: #3A3A3A;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.yoga_value{
+ 
+font-size: 14px;
+font-weight: 600;
+}
+.yoga_count{
+    font-size: 24px;
+}
+.welcome-col{
+    background-image: url('/images/welcome_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.welcome-section{
+    background-image: url('/images/welcome_main_bg.png');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+.welcome-container{
+    position: relative;
+    top: 80px;
+}
+.blog-section{
+position: relative;
+top: 400px;
+}
+.blog-img{
+    position: relative;
+    z-index: 2;
+}
+.blogs-info{
+    position: relative;
+    top: -10px;
+}
+.blog-date{
+    color: #777;
+font-size: 16px;
+}
+.blog-title{
+    color: #3A3A3A;
+font-size: 24px;
+font-weight: 600;
+}
+.blog-desc{
+    overflow: hidden;
+color:  #313132;
+text-overflow: ellipsis;
+font-size: 16px;
+font-weight: 500;
+}
+.read-more-blog,.join-event{
+    color: #C4AC02;
+font-size: 16px;
+text-decoration: none;
+font-weight: 700;
+}
+
+.gallery-container{
+    position: relative;
+    top: 500px;
+}
+.events-section{
+    position: relative;
+    top: 550px;
+}
+.event-details{
+    position: relative;
+}
+.event-details img{
+    position: absolute;
+    top: -98px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.event-icon{
+   color:  rgba(196, 172, 2, 1);
+}
+.karma-points{
+    position: relative;
+    margin-top: 800px;
+    color: white;
+}
+.karma-col{
+    border-radius: 20px;
+background: #454545;
+
+}
+.karma-heading{
+    color: #F0D200;
+font-size: 36px;
+font-weight: 700;
+}
+.karma-desc{
+    color: #FFF;
+text-align: justify;
+font-size: 16px;
+font-weight: 400;
+}
+.karma-sub-title{
+    color:#F0D200;
+font-size: 20px;
+font-weight: 600;
+}
+.karma-div{
+    position: relative;
+}
+.karma-col{
+    padding: 30px
+}
+.karma-images{
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.karma-images img{
+    width: 60px;
+    border-radius: 5px;
+}
+@media(min-width:992px){
+    .karma-div div{
+        position: absolute;
+        left: -50px;
+    }
+    .karma-col{
+        padding: 30px 110px 30px 30px;
+    }
+}
+.contact-section{
+    position: relative;
+    top: 100px;
+}
+.contact-heading{
+    color: #F0D200;
+
+text-shadow: 0px 4px 31px rgba(196, 172, 2, 0.55);
+
+/* title */
+font-family: Playfair Display;
+font-size: 36px;
+font-weight: 700;
+}
+.contact-desc{
+    color: #E8E8E8;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: -0.32px;
+}
+.contact-icons{
+    color: #F0D200;
+    font-size: 20px;
+}
+.volunteer-form{
+    border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.10);
+color: black;
+padding: 50px;
+}
+.form-heading{
+    color: #000;
+font-size: 36px;
+font-weight: 700;
+}
+.form-label{
+    color: #000;
+font-size: 16px;
+font-weight: 500;
+}
+.submit-form{
+    border-radius: 4px;
+background: #D7BF1A !important;
+color: white !important;
+padding: 13px 10px;
+}
+footer{
+    margin-top: 60px;
+    background-image: url('/images/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer-container{
+    padding-top: 140px;
+}
+.footer-logo-div{
+    position: relative;
+}
+.footer-logo{
+    position: absolute;
+    top: -77px;
+    width: 200px;
+}
+.footer-heading{
+    color: #FFF;
+font-size: 20px;
+font-weight: 700;
+}
+.flex-column{
+    row-gap: 10px;
+}
+.flex-column a{
+    text-decoration: none;
+    color: white;
+}
+.social-media{
+    height: 36px;
+    /* padding-top: 50px; */
+}
+
+.hr{
+    height: 1px;
+    background: rgb(255, 255, 255,0.7);
+}

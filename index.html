@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary container-lg position-relative z-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="/images/logo.png" alt="logo" class="img-fluid logo"></a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-evenly" style="flex: 1;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Login</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="btn btn-warning   active donate px-4 py-2" aria-current="page" href="#">Donate</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- hero section -->
+    <section class="hero">
+        <div>
+            <p>Welcome to "The Karma,"</p>
+            <p>an immersive digital</p>
+            <p>sanctuary.</p>
+        </div>
+    </section>
+    <!-- end of hero section -->
+
+    <!-- about section -->
+    <section class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div>
+                    <p class="about-heading">About Us</p>
+                    <p class="about-title">The Karma</p>
+                    <p class="about-desc pb-3">"The Karma" is an invitation to you, wherever you may be, to join a
+                        movement of peace.
+                        Itis a call to embrace a life of mindfulness, to nurture your inner well-being, and to share
+                        thefruits of your journey with a global community. In this sacred digital space, we
+                        cometogether to shape a reality where serenity and kindness reign supreme.As you
+                        navigate through "The Karma," you will find that every feature, every piece ofcontent,
+                        and every community initiative is imbued with intention and purpose. This platformis a
+                        testament to our vision-a world united by the profound understanding that peace isnot
+                        just an ideal to be hoped for but a reality to be created, one compassionate action at
+                        atime.We invite you to begin your journey with "The Karma." Here, let your heart find its
+                        rhythm,let your spirit soar, and let your actions be the harbinger of the peace you wish to
+                        see inthe world. Welcome, traveler, to your new spiritual home.</p>
+                    <a href="" class=" about-btn ">Learn More</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+                <div class="text-center ">
+                    <img src="/images/about-image.png" class="img-fluid about-img" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about section -->
+
+    <!-- products section -->
+    <section class="container mt-5 ">
+        <h2 class="product-main-title text-white">Our Products</h2>
+        <h3 class="product-sub-title">Our Featured Products</h3>
+        <div class="text-end my-4">
+            <a href="" class="explore-all  ">Explore All Products<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+        </div>
+
+        <div class="row" style="row-gap: 200px;">
+            <div class="col-12 col-sm-6  col-lg-4 col-xl-3">
+                <div class="product-card ">
+                    <img src="/images/product.avif" class="img-fluid " alt="">
+                    <div class="product-details ">
+                        <img src="/images/products-curve.png" alt="">
+                        <div class="product-info  px-3">
+                            <p class="product-heading ">Light Diyo</p>
+                            <p class="text-dark product-desc">Lorem ipsum dolor sit amet conectetur.
+                                Ac adipiscing nulla faucibus ornare ttis
+                                cras id.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="product-btn">Purchase</button>
+                                <p class="text-dark  fw-bold">$ <span class="fs-1">50</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6  col-lg-4 col-xl-3">
+                <div class="product-card ">
+                    <img src="/images/product.avif" class="img-fluid " alt="">
+                    <div class="product-details ">
+                        <img src="/images/products-curve.png" alt="">
+                        <div class="product-info  px-3">
+                            <p class="product-heading ">Light Diyo</p>
+                            <p class="text-dark product-desc">Lorem ipsum dolor sit amet conectetur.
+                                Ac adipiscing nulla faucibus ornare ttis
+                                cras id.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="product-btn">Purchase</button>
+                                <p class="text-dark  fw-bold">$ <span class="fs-1">50</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6  col-lg-4 col-xl-3">
+                <div class="product-card ">
+                    <img src="/images/product.avif" class="img-fluid " alt="">
+                    <div class="product-details ">
+                        <img src="/images/products-curve.png" alt="">
+                        <div class="product-info  px-3">
+                            <p class="product-heading ">Light Diyo</p>
+                            <p class="text-dark product-desc">Lorem ipsum dolor sit amet conectetur.
+                                Ac adipiscing nulla faucibus ornare ttis
+                                cras id.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="product-btn">Purchase</button>
+                                <p class="text-dark  fw-bold">$ <span class="fs-1">50</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6  col-lg-4 col-xl-3">
+                <div class="product-card ">
+                    <img src="/images/product.avif" class="img-fluid " alt="">
+                    <div class="product-details ">
+                        <img src="/images/products-curve.png" alt="">
+                        <div class="product-info  px-3">
+                            <p class="product-heading ">Light Diyo</p>
+                            <p class="text-dark product-desc">Lorem ipsum dolor sit amet conectetur.
+                                Ac adipiscing nulla faucibus ornare ttis
+                                cras id.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="product-btn">Purchase</button>
+                                <p class="text-dark  fw-bold">$ <span class="fs-1">50</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of products section -->
+
+
+    <!-- welcome section -->
+    <section class="welcome-section">
+        <div class="container welcome-container">
+            <div class="row ">
+                <div
+                    class="col-12 col-lg-7 welcome-col d-flex justify-content-center align-items-center text-center text-white rounded-start-4">
+                    <div class="px-5 py-5 py-lg-0">
+                        <h2 class="fw-bold fs-2 mb-4 ">Welcome to Divobatti</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Dui morbi aliquam
+                            quam cursus volutpat volutpat lorem sit. Faucibus purus auctor
+                            malesuada tortor nullam consectetur. Placerat nulla tellus donec
+                            blandit rhoncus ipsum accumsan aenean dui. Tellus leo morbi
+                            eros aliquam. Aliquam etiam massa aliquet massa egestas
+                            feugiat egestas sit pharetra. Imperdiet aliquam ullamcorper at
+                            ornare tempus in pulvinar. Eu tortor lectus vitae pharetra
+                            adipiscing feugiat vestibulum nisl. A quam nisi habitasse massa.
+                            Tortor mauris commodo odio augue ornare et mi. Quam sem
+                            convallis</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 bg-white rounded-end-4">
+                    <div class="d-flex justify-content-center flex-column pt-4 " style="row-gap: 20px;">
+                        <div class="d-flex align-items-center justify-content-center" style="column-gap: 25px;">
+                            <img src="/images/yoga_one.jpg" alt="" class="yoga_img rounded-circle">
+                            <div class="mt-2">
+                                <p class="yoga_title">Beacons of Serenity</p>
+                                <p class="yoga_value"><span class="yoga_count fs-4">1000</span> Counts</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center" style="column-gap: 25px;">
+                            <img src="/images/yoga_two.jpg" alt="" class="yoga_img rounded-circle">
+                            <div class="mt-2">
+                                <p class="yoga_title">Sustenance for the Soul</p>
+                                <p class="yoga_value"><span class="yoga_count fs-4">1000</span> Monks</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center" style="column-gap: 25px;">
+                            <img src="/images/yoga_four.jpg" alt="" class="yoga_img rounded-circle">
+                            <div class="mt-2">
+                                <p class="yoga_title">Nourishment for Peace</p>
+                                <p class="yoga_value"><span class="yoga_count fs-4">1000</span> People</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center" style="column-gap: 25px;">
+                            <img src="/images/yoga_five.jpg" alt="" class="yoga_img rounded-circle">
+                            <div class="mt-2">
+                                <p class="yoga_title">Icons of Reflection</p>
+                                <p class="yoga_value"><span class="yoga_count fs-4">1000</span> Buddhas</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center" style="column-gap: 25px;">
+                            <img src="/images/yoga_three.jpg" alt="" class="yoga_img rounded-circle">
+                            <div class="mt-2">
+                                <p class="yoga_title">Saplings of Enlightenment</p>
+                                <p class="yoga_value"><span class="yoga_count fs-4">1000</span> Trees</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of welcome section -->
+
+    <!-- blogs section -->
+    <section class="container blog-section">
+        <h2 class="product-main-title text-white">Our Blogs</h2>
+        <h3 class="product-sub-title">Recent from Blogs</h3>
+        <div class="text-end my-4">
+            <a href="" class="explore-all  ">Explore All Blogs<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+        </div>
+        <div class="row d-flex  " style="row-gap: 20px;">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div>
+                    <img src="/images/praying.jpg" alt="" class="img-fluid blog-img rounded-4">
+                    <div class="bg-white blogs-info py-4 px-3 rounded-bottom-4">
+                        <p class="blog-date fw-bold">December 27. 2023 <span class="fw-normal">-7 min read</span></p>
+                        <p class="blog-title">The Ramagrama World Peace Program</p>
+                        <p class="blog-desc">A Global Convergence for HarmonyThe
+                            Ramagrama World Peace Program, held o...</p>
+                        <a href="" class="read-more-blog">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div>
+                    <img src="/images/praying.jpg" alt="" class="img-fluid blog-img rounded-4">
+                    <div class="bg-white blogs-info py-4 px-3 rounded-bottom-4">
+                        <p class="blog-date fw-bold">December 27. 2023 <span class="fw-normal">-7 min read</span></p>
+                        <p class="blog-title">The Ramagrama World Peace Program</p>
+                        <p class="blog-desc">A Global Convergence for HarmonyThe
+                            Ramagrama World Peace Program, held o...</p>
+                        <a href="" class="read-more-blog">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div>
+                    <img src="/images/praying.jpg" alt="" class="img-fluid blog-img rounded-4">
+                    <div class="bg-white blogs-info py-4 px-3 rounded-bottom-4">
+                        <p class="blog-date fw-bold">December 27. 2023 <span class="fw-normal">-7 min read</span></p>
+                        <p class="blog-title">The Ramagrama World Peace Program</p>
+                        <p class="blog-desc">A Global Convergence for HarmonyThe
+                            Ramagrama World Peace Program, held o...</p>
+                        <a href="" class="read-more-blog">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end of blogs section -->
+
+    <!-- gallery section-->
+    <section class="container gallery-container">
+        <h2 class="product-main-title text-white">Gallery</h2>
+        <h3 class="product-sub-title mb-5">Mindfulness Visuals</h3>
+        <div class="row d-flex justify-content-center align-items-center" style="row-gap: 30px;">
+            <div class="col-12 col-lg-8">
+                <img src="/images/gallery_one.png" alt="" class="img-fluid h-100">
+
+            </div>
+            <div class="col-12 col-lg-4">
+                <img src="/images/gallery_two.png" alt="" class="img-fluid h-100">
+
+            </div>
+            <div class="col-12 col-lg-4">
+                <img src="/images/gallery_three.png" alt="" class="img-fluid h-100">
+            </div>
+            <div class="col-12 col-lg-8">
+                <div class="row d-flex" style="row-gap: 30px;">
+                    <div class="col-12">
+                        <img src="/images/gallery_four.png" alt="" class="img-fluid h-100">
+
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img src="/images/gallery_five.png" alt="" class="img-fluid h-100">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img src="/images/gallery_five.png" alt="" class="img-fluid h-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of gallery section -->
+
+    <!-- our latest events section -->
+    <section class="container events-section">
+        <h2 class="product-main-title text-white">Events</h2>
+        <h3 class="product-sub-title mb-5">Our Latest Events</h3>
+
+
+        <div class="row" style="row-gap: 200px;">
+            <div class="col-12 col-sm-6  col-lg-4 col-xl-3">
+                <div class="product-card ">
+                    <img src="/images/product.avif" class="img-fluid " alt="">
+                    <div class="event-details ">
+                        <img src="/images/events-curve.png" alt="">
+                        <div class="product-info  ps-3 mt-3  events-info">
+                            <p class="product-heading ">Peace Keeping Event</p>
+                            <p class="mb-0"><i class="fa-regular fa-clock event-icon"></i><span
+                                    class="text-dark ms-2">2023-12-30, 12am</span></p>
+                            <p><i class="fa-solid fa-location-dot event-icon"></i><span class="text-dark ms-2">Ramgram
+                                    stupa, Ramgram</span></p>
+                            <div class="text-end ">
+                                <a href="" class="join-event">Join Event<i class="fa-solid fa-angle-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-sm-6  col-lg-4 col-xl-3">
+                <div class="product-card ">
+                    <img src="/images/product.avif" class="img-fluid " alt="">
+                    <div class="event-details ">
+                        <img src="/images/events-curve.png" alt="">
+                        <div class="product-info  ps-3 mt-3  events-info">
+                            <p class="product-heading ">Peace Keeping Event</p>
+                            <p class="mb-0"><i class="fa-regular fa-clock event-icon"></i><span
+                                    class="text-dark ms-2">2023-12-30, 12am</span></p>
+                            <p><i class="fa-solid fa-location-dot event-icon"></i><span class="text-dark ms-2">Ramgram
+                                    stupa, Ramgram</span></p>
+                            <div class="text-end ">
+                                <a href="" class="join-event">Join Event<i class="fa-solid fa-angle-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-sm-6  col-lg-4 col-xl-3">
+                <div class="product-card ">
+                    <img src="/images/product.avif" class="img-fluid " alt="">
+                    <div class="event-details ">
+                        <img src="/images/events-curve.png" alt="">
+                        <div class="product-info  ps-3 mt-3  events-info">
+                            <p class="product-heading ">Peace Keeping Event</p>
+                            <p class="mb-0"><i class="fa-regular fa-clock event-icon"></i><span
+                                    class="text-dark ms-2">2023-12-30, 12am</span></p>
+                            <p><i class="fa-solid fa-location-dot event-icon"></i><span class="text-dark ms-2">Ramgram
+                                    stupa, Ramgram</span></p>
+                            <div class="text-end ">
+                                <a href="" class="join-event">Join Event<i class="fa-solid fa-angle-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-sm-6  col-lg-4 col-xl-3">
+                <div class="product-card ">
+                    <img src="/images/product.avif" class="img-fluid " alt="">
+                    <div class="event-details ">
+                        <img src="/images/events-curve.png" alt="">
+                        <div class="product-info  ps-3 mt-3  events-info">
+                            <p class="product-heading ">Peace Keeping Event</p>
+                            <p class="mb-0"><i class="fa-regular fa-clock event-icon"></i><span
+                                    class="text-dark ms-2">2023-12-30, 12am</span></p>
+                            <p><i class="fa-solid fa-location-dot event-icon"></i><span class="text-dark ms-2">Ramgram
+                                    stupa, Ramgram</span></p>
+                            <div class="text-end ">
+                                <a href="" class="join-event">Join Event<i class="fa-solid fa-angle-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end of our latest events -->
+
+    <!-- karma points section -->
+    <section class="container karma-points">
+        <div class="row d-flex" style="row-gap: 20px;">
+            <div class="col-12 col-lg-8 karma-col order-2 order-lg-1">
+                <div>
+                    <h2 class="karma-heading">What is Karma Points System?</h2>
+                    <p class="karma-desc">The Karma Points System is a direct reflection of our core belief in the
+                        transformative power of
+                        collective
+                        action and personal development. We believe that every small step taken by an individual
+                        contributes to
+                        a larger movement towards a more mindful and compassionate world. This system is our way of
+                        putting
+                        these beliefs into action, creating a tangible and interactive experience that empowers
+                        individuals to
+                        contribute to and benefit from this collective transformation.</p>
+                    <p class="karma-desc">In essence, the Karma Points System is much more than a mere feature of a
+                        digital
+                        platform. It's
+                        a
+                        thoughtfully designed, integral part of "The Karma" that encapsulates our vision of spiritual
+                        growth,
+                        community building, and the transformative journey towards a more mindful and compassionate
+                        existence. It's an invitation to each individual to engage, connect, and grow, not just for
+                        personal benefit
+                        but for the collective good of the community and the world at large.</p>
+                    <p class="karma-sub-title">Karma Status Ranking System</p>
+                    <p class="karma-desc">The Karma Status Ranking System is an intricately designed structure that
+                        celebrates your
+                        spiritual
+                        progression and contributions to our community. Each tier, from Karma Bronze to Karma Ruby, is
+                        not just
+                        a rank but a realm of experiences, rewards, and recognition, meticulously tailored to your
+                        journey.</p>
+                    <div class="d-flex  karma-images   ">
+                        <img src="/images/karma-one.jpg" class="img-fluid" alt="">
+                        <img src="/images/karma-two.jpg" class="img-fluid" alt="">
+                        <img src="/images/karma-three.jpg" class="img-fluid" alt="">
+                        <img src="/images/karma-four.jpg" class="img-fluid" alt="">
+                        <img src="/images/karma-five.jpg" class="img-fluid" alt="">
+                        <img src="/images/karma-six.jpg" class="img-fluid" alt="">
+                        <img src="/images/karma-seven.jpg" class="img-fluid" alt="">
+                        <img src="/images/karma-eight.jpg" class="img-fluid" alt="">
+                        <img src="/images/karma-nine.jpg" class="img-fluid" alt="">
+                        <img src="/images/karma-ten.jpg" class="img-fluid" alt="">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 d-flex align-items-center karma-div order-1 order-lg-2">
+                <div>
+                    <img src="/images/karma.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of karma points section -->
+
+    <!-- get in touch section -->
+    <section class="container contact-section text-white ">
+        <div class="row d-flex" style="row-gap: 30px;">
+            <div class="col-12 col-lg-6">
+                <div>
+                    <h2 class="contact-heading ">Get in Touch</h2>
+                    <p class="contact-desc mt-4 mb-5">Lorem ipsum dolor sit amet consectetur. Blandit vulputate amet
+                        urna
+                        habitant iaculis posuere. Semper scelerisque curabitur pretium orci dui
+                        fermentum et. Volutpat porttitor est purus a sit urna platea
+                        pellentesque vitae. Nisl enim quis quisque tellus.</p>
+                    <div>
+                        <p class="d-flex align-items-center"><i
+                                class="fa-solid fa-location-dot contact-icons me-4"></i><span>Kathmandu,Nepal</span>Kathmandu,Nepal
+                        </p>
+                        <p class="d-flex align-items-center py-2"><i
+                                class="fa-solid fa-phone contact-icons me-4"></i><span>9811761743</span></p>
+                        <p class="d-flex align-items-center"><i
+                                class="fa-regular fa-envelope contact-icons me-4"></i>email@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="volunteer-form">
+                    <h2 class="form-heading mb-4">Be a Volunteer</h2>
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Please enter your full name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Please enter your email">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" placeholder="Write your message" id="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn w-100  submit-form">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of get in touch section -->
+
+    <!-- footer section -->
+    <footer>
+        <div class="container text-white footer-container">
+            <div class="row d-flex" style="row-gap: 20px;">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="footer-logo-div">
+                        <img src="/images/footer-logo.png" class="img-fluid footer-logo" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur. Pharetra sed
+                            aliquam adipiscing suspendisse vitae odio iaculis
+                            tortor. Platea eget sit aliquam elementum pretium at.
+                            vitae odio iaculis tortor. Platea eget sit aliquam
+                            elementum pretium at.lementum pretium at. vitae
+                            odio iaculis tortor. Platea eget sit aliquam elementum
+                            pretium at.lementum pretium at. vitae odio iaculis
+                            tortor. Platea eget sit aliquam elementum pretium
+                            at.lementum pretium at. vitae odio iaculis tortor.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3  d-lg-flex justify-content-center">
+                    <div class="">
+                        <h2 class="footer-heading">QUICK LINKS</h2>
+                        <div class="d-flex flex-column ">
+                            <a href="" class="mt-2">About</a>
+                            <a href="">Contact</a>
+                            <a href="">Events</a>
+                            <a href="">Blogs</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div>
+                        <h2 class="footer-heading">STAY CONNECTED</h2>
+                        <div class="d-flex flex-column ">
+                            <p class="mt-2 d-flex align-items-center"><i
+                                    class="fa-solid fa-location-dot me-3 fs-5"></i><span>Kathmandu,Nepal</span></p>
+                            <p class=" d-flex align-items-center"><i
+                                    class="fa-solid fa-phone me-3 fs-5"></i><span>9876543210</span></p>
+                            <p class=" d-flex align-items-center"><i
+                                    class="fa-regular fa-envelope me-3 fs-5"></i><span>email@gmail.com</span></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-lg-flex justify-content-center">
+                    <div>
+                        <h2 class="footer-heading">FOLLOW US</h2>
+                        <div class="d-flex align-items-center mt-3" style="gap: 12px;flex-wrap: wrap;">
+                            <a href=""><img src="/images/facebook.webp" class="img-fluid social-media text-white"
+                                    alt=""></a>
+                            <a href=""><img src="/images/insta.png" class="img-fluid social-media" alt=""></a>
+                            <a href=""><img src="/images/youtube.png" class="img-fluid social-media" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="hr mt-2"></p>
+                <p class="text-center">&#169; 2023 - Diyobatti. All Rights Reserved.</p>
+
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer section -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
